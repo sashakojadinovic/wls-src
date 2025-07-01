@@ -1,0 +1,5 @@
+# Node modules
+node_modules/
+
+# Eleventy output folder
+_wls/
