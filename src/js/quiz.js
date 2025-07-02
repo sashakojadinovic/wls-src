@@ -7,6 +7,7 @@ const answersDiv = document.getElementById("answers");
 const resultDiv = document.getElementById("result");
 const feedback = document.getElementById("feedback");
 const reviewLink = document.getElementById("review-link");
+const nextLessonLink = document.getElementById("next-lesson");
 
 function showQuestion() {
     const q = questions[current];
@@ -62,11 +63,13 @@ function showResult() {
     const successRatio = score / questions.length;
 
     if (successRatio >= 0.66) {
-        feedback.textContent = "Great job!.";
+        feedback.textContent = successMessage;
         reviewLink.style.display = "none";
+        nextLessonLink.style.display = "inline-block";
     } else {
-        feedback.textContent = "Looks like you could use a bit more practice.";
+        feedback.textContent = failureMessage;
         reviewLink.style.display = "inline";
+        nextLessonLink.style.display = "none";
         reviewLink.onclick = (e) => {
             e.preventDefault();
             resetQuiz();

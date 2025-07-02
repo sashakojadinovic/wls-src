@@ -1,0 +1,133 @@
+---
+layout: layout.njk
+lang: "en"
+title: Changes of State
+permalink: /chemistry/changes-of-state.html
+----------------------------------------------
+
+<article>
+    <h1>Changes of State of Matter</h1>
+    <h2>Like evaporation and condensation you see every day, and the weird ones like sublimation</h2>
+    <section class="dialogue" aria-label="Dialogue between Mark and Sara about chemistry">
+        <h2 class="section-title">Kids Talk Science</h2>
+        <div class="dialogue-turn show-after-1" data-speaker="Sara">
+            <img src="/images/avatars/sara2.svg" width="100" height="106" alt="Sara's avatar" class="avatar" />
+            <p class="bubble question">I'm melting, Marko!</p>
+        </div>
+        <div class="dialogue-turn show-after-2" data-speaker="Mark">
+            <img src="/images/avatars/mark.svg" width="100" height="106" alt="Mark's avatar" class="avatar" />
+            <p class="bubble answer">Want me to turn on the AC?</p>
+        </div>
+        <div class="dialogue-turn show-after-2" data-speaker="Sara">
+            <img src="/images/avatars/sara.svg" width="100" height="106" alt="Sara's avatar" class="avatar" />
+            <p class="bubble question">You just don’t get it, do you?</p>
+        </div>
+
+        <div class="dialogue-mix show-after-3" data-speaker="Mark and Sara">
+            <p><strong>Mark: </strong>You said you're melting. I know substances can change their state—usually when we
+                heat or cool them. We do it all the time. To get ice, we put water in the freezer.</p>
+            <p><strong>Sara: </strong>And when we boil water for tea, it turns into a gas called water vapor?</p>
+            <p><strong>Mark: </strong>Exactly. We see substances change their state every day. And these changes have
+                names: evaporation, condensation, melting, freezing…</p>
+            <p><strong>Sara: </strong>Of course I know all that, Marko. Condensation, for example, happens when a gas
+                becomes a liquid. Like when the warm air from our room hits the cold window in winter.</p>
+            <p><strong>Mark: </strong>Right. We know those ones. But do you know what sublimation is?</p>
+            <p><strong>Sara: </strong>Sublimation? Sounds familiar.</p>
+            <p><strong>Mark: </strong>It’s when a substance goes straight from solid to gas. Kinda weird, right?</p>
+            <p><strong>Sara: </strong>Wait, can that even happen? 😏</p>
+            <p><strong>Mark: </strong>It can! Take iodine, for example. It's solid at room temperature, but when you
+                heat it, it doesn't melt—it turns directly into a purple gas.</p>
+            <p><strong>Sara: </strong>I love purple! You’ll show me someday, right? 😍</p>
+            <p><strong>Mark: </strong>Promise.</p>
+        </div>
+
+    </section>
+    <section class="resume">
+        <h2 class="section-title">Key Science Concepts</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Teacher">
+            <img src="/images/avatars/teacher.svg" width="100" height="106" alt="Teacher avatar" class="avatar" />
+            <p class="bubble info">We’ve learned that substances can change state, and each type of change has a name.
+                Sara says she understands it best when she draws how they’re connected—so she shared her diagram with
+                us.</p>
+        </div>
+
+        <div class="svg-wrapper">
+            <img src="/chemistry/images/phase-transitions.svg" alt="Diagram of changes of state">
+        </div>
+
+        <div class="resume-description">
+            <dl class="glossary">
+                <dt>Melting</dt>
+                <dd>Changing from a solid to a liquid. Example – ice melting in a glass.</dd>
+                <dt>Freezing</dt>
+                <dd>Changing from a liquid to a solid. Example – water freezing into ice in the freezer.</dd>
+                <dt>Evaporation</dt>
+                <dd>Changing from a liquid to a gas. Example – boiling water in a kettle.</dd>
+                <dt>Condensation</dt>
+                <dd>Changing from a gas to a liquid. Example – water droplets forming on windows in winter.</dd>
+                <dt>Sublimation</dt>
+                <dd>Changing directly from a solid to a gas without melting first. Example – heating iodine to produce
+                    purple gas.</dd>
+                <dt>Deposition</dt>
+                <dd>Changing directly from a gas to a solid without becoming liquid first. Example – iodine gas turning
+                    back into solid crystals when cooled.</dd>
+            </dl>
+        </div>
+    </section>
+    <section id="fun-fact-section">
+        <h2 class="section-title">Science Fun Fact</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Teacher">
+            <img src="/images/avatars/sara2.svg" width="100" height="106" alt="Teacher avatar" class="avatar" />
+            <p class="bubble info">There’s a gas that freezes by evaporating—it’s carbon dioxide (CO₂)! When CO₂ changes
+                from gas to solid at normal pressure, it skips the liquid phase. That’s sublimation! <br>
+
+                But something really cool can happen: if gas CO₂ is cooled quickly, some of it can both sublimate and
+                condense at once. This makes a snowy fog made of tiny solid CO₂ particles. It looks like white smoke,
+                but it’s actually dry ice turning back into gas! That’s why <strong>dry ice</strong> is used in theaters
+                and concerts—to make fog that doesn’t leave any water behind.</p>
+        </div>
+    </section>
+    <section id="quiz-section" aria-label="Quiz about chemistry and matter">
+        <h2 class="section-title">Quick Science Quiz</h2>
+        <div id="quiz-box">
+            <div id="quiz-question">
+                <img src="/images/avatars/teacher.svg" alt="Teacher's avatar" width="100" height="106" />
+
+                <p id="question-text" class="bubble question">...</p>
+            </div>
+
+            <div id="answers">
+            </div>
+
+            <div id="result" style="display: none; margin-top: 1rem; font-size: 1.1rem; text-align: center;"
+                role="alert" aria-live="polite">
+                <p id="feedback" style="font-weight: bold;"></p>
+                <button class="btn btn-primary" id="review-link">Review the lesson</button>
+                <a href="#" class="btn btn-primary" id="next-lesson">Phisical Changes (under construction)</a>
+            </div>
+        </div>
+    </section>
+    <script>
+        const successMessage = "Great job! You are ready for the next lesson.";
+        const failureMessage = "Looks like you could use a bit more practice.";
+        const questions = [
+            {
+                text: "What is condensation?",
+                answers: ["A change from gas to liquid", "A change from liquid to gas", "A change from gas to solid", "A change from liquid to solid"],
+                correct: 0,
+            },
+            {
+                text: "What do we call it when a substance changes directly from solid to gas?",
+                answers: ["Condensation", "Melting", "Evaporation", "Sublimation"],
+                correct: 3,
+            },
+            {
+                text: "Which of these substances turns into purple gas when heated?",
+                answers: ["Water", "Iodine", "Sulfur", "Chlorine"],
+                correct: 1,
+            }
+        ];
+    </script>
+    <script src="/js/quiz.js"></script>
+
+</article>
