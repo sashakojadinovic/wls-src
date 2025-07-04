@@ -23,6 +23,29 @@ p {
 li {
   margin: 1rem;
 }
+table {
+  margin: 2rem 0.5rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+table tr {
+  border-bottom: 1px solid #e1ebe5;
+}
+table tr th {
+  padding: 1rem 0;
+  width: 33%;
+}
+table tr td {
+  padding: 1rem;
+}
+table tr td img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
 .btn {
   display: inline-block;
   padding: 0.75rem;
