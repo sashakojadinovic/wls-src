@@ -2,3 +2,22 @@
   <a href="/{{ lang if lang != "en"}}"><img src="/images/site-assets/logo.svg" width="200" height="60" alt="Site logo">
   </a>
 </div>
+{% include lang + "/navigation.njk" %}
+
+
+<script>
+  const nav = document.getElementById("nav");
+  const hamburger = document.getElementById("hamburger");
+  function toggleMenu() {
+    nav.classList.toggle("active");
+    hamburger.classList.toggle("active");
+  }
+
+
+  document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("active");
+      hamburger.classList.remove("active");
+    });
+  });
+</script>
