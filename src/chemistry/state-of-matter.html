@@ -2,6 +2,8 @@
 layout: layout.njk
 lang: "en"
 title: State of matter
+metaDescription: "Learn about the three main states of matter—solid, liquid, and gas—through simple explanations and
+real-life examples. Perfect for young science learners."
 permalink: /chemistry/state-of-matter.html
 ---
 
@@ -106,11 +108,14 @@ permalink: /chemistry/state-of-matter.html
 
         <div class="resume-description">
             <dl class="glossary">
-                <dt>Chemistry</dt>
-                <dd>A natural science that studies matter—what it’s made of, what it’s like, and how it changes.
+                <dt>A state of matter</dt>
+                <dd>form in which a substance exists — whether it is a solid (like ice), liquid (like water), or gas
+                    (like steam). <br>It depends on how the particles in the substance behave: how close they are, how
+                    freely they move, and how much energy they have.
                 </dd>
-                <dt>Matter</dt>
-                <dd>Anything that has mass and takes up space. Every object around us is made of matter.</dd>
+                <dt>Heat</dt>
+                <dd> is energy made by moving particles.
+                    When particles move faster, the substance feels hotter.</dd>
             </dl>
         </div>
     </section>
@@ -123,23 +128,22 @@ permalink: /chemistry/state-of-matter.html
                     there’s more! Scientists have discovered other, less common states of matter. One of them is called
                     plasma — and it’s actually the most common state of matter in the entire universe!</p>
 
-                <h3>So, what is plasma?</h3>
-                <p> Plasma is a super-hot gas where the atoms have been “ripped apart.” The electrons break away from
-                    the
-                    atoms, so instead of neutral particles, you get a mix of positively charged particles and free
-                    electrons. This makes plasma able to carry electricity and react to magnetic fields. <br>
-
-                    You can find plasma in lightning, neon signs, and even in the Sun and all the stars. So while we
-                    don’t
-                    see it much on Earth, it's literally lighting up the universe! <br>
-
-                    And if that’s not wild enough — there’s also a super-strange state called Bose–Einstein condensate,
-                    where matter acts like a single super-atom when it gets unbelievably cold. We're talking colder than
-                    outer space!</p>
-
             </div>
         </div>
     </section>
+    <h3>So, what is plasma?</h3>
+    <p> Plasma is a super-hot gas where the atoms have been “ripped apart.” The electrons break away from
+        the
+        atoms, so instead of neutral particles, you get a mix of positively charged particles and free
+        electrons. This makes plasma able to carry electricity and react to magnetic fields. <br>
+
+        You can find plasma in lightning, neon signs, and even in the Sun and all the stars. So while we
+        don’t
+        see it much on Earth, it's literally lighting up the universe! <br>
+
+        And if that’s not wild enough — there’s also a super-strange state called Bose–Einstein condensate,
+        where matter acts like a single super-atom when it gets unbelievably cold. We're talking colder than
+        outer space!</p>
     <section id="quiz-section" aria-label="Quiz about chemistry and matter">
         <h2 class="section-title">Quick Science Quiz</h2>
         <div id="quiz-box">
@@ -156,22 +160,25 @@ permalink: /chemistry/state-of-matter.html
                 role="alert" aria-live="polite">
                 <p id="feedback" style="font-weight: bold;"></p>
                 <button class="btn btn-primary" id="review-link">Review the lesson</button>
+                <a href="/chemistry/changes-of-state-of-matter.html" class="btn btn-primary" id="next-lesson">Changes of
+                    State of Matter</a>
             </div>
         </div>
     </section>
     <script>
+        const successMessage = "Great job! You are ready for the next lesson.";
+        const failureMessage = "Looks like you could use a bit more practice.";
         const questions = [
             {
-                text: "What is chemistry mainly concerned with?",
-                answers: ["Emotions and human behavior", "Substance and the changes it undergoes", "The movement of planets", "Numbers and calculations"],
-                correct: 1,
+                text: "In which state of matter do particles move the fastest?",
+                answers: ["Gas", "Liquid", "Solid"],
+                correct: 0,
             },
             {
-                text: "Which of the following is NOT considered a substance?",
-                answers: ["Water", "Aluminum", "Plastic", "Love"],
-                correct: 3,
+                text: "Do substances take up more space when they are solid than when they are gas?",
+                answers: ["True", "False"],
+                correct: 1,
             }
-
         ];
     </script>
     <script src="/js/quiz.js"></script>

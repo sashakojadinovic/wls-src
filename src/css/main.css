@@ -37,11 +37,16 @@ table tr th {
 }
 table tr td {
   padding: 1rem;
+  text-align: center;
 }
 table tr td img {
   width: 100%;
   height: auto;
-  display: block;
+}
+@media (min-width: 768px) {
+  table tr td img {
+    width: auto;
+  }
 }
 .text-center {
   text-align: center;

@@ -2,6 +2,8 @@
 layout: layout.njk
 lang: "sr"
 title: Agregatna stanja
+metaDescription: "Nauči šta su agregatna stanja materije — čvrsto, tečno i gasovito — kroz jednostavna objašnjenja i
+primere iz svakodnevnog života."
 permalink: /sr/hemija/agregatna-stanja.html
 ---
 
@@ -68,7 +70,7 @@ permalink: /sr/hemija/agregatna-stanja.html
 
     </section>
     <section class="resume">
-        <h2 class="section-title">Key Science Concepts</h2>
+        <h2 class="section-title">Ključni naučni pojmovi</h2>
         <div class="dialogue-turn show-after-3" data-speaker="Teacher">
             <img src="/images/avatars/teacher.svg" width="100" height="106" alt="Teacher avatar" class="avatar" />
             <p class="bubble info">Izgleda da je Sara odlično razumela razlike između tri agregatna stanja i nacrtala ti
@@ -111,11 +113,16 @@ permalink: /sr/hemija/agregatna-stanja.html
 
         <div class="resume-description">
             <dl class="glossary">
-                <dt>Chemistry</dt>
-                <dd>A natural science that studies matter—what it’s made of, what it’s like, and how it changes.
+                <dt>Agregatno stanje</dt>
+                <dd>Oblik u kom se neka supstanca nalazi – da li je čvrsta (kao led), tečna (kao
+                    voda) ili gasovita (kao vodena para).
+                    Agregatno stanje zavisi od toga kako se čestice u toj supstanci ponašaju: da li su blizu, da li se
+                    kreću slobodno,
+                    i koliko energije imaju.
                 </dd>
-                <dt>Matter</dt>
-                <dd>Anything that has mass and takes up space. Every object around us is made of matter.</dd>
+                <dt>Toplota</dt>
+                <dd>Energija koja potiče od kretanja čestica u nekoj supstanci. Što se čestice brže kreću supstanca je
+                    toplija i njena temperatura je viša</dd>
             </dl>
         </div>
     </section>
@@ -130,24 +137,26 @@ permalink: /sr/hemija/agregatna-stanja.html
                     to
                     najzastupljenije stanje materije u celom svemiru!</p>
 
-                <h3>A šta je zapravo plazma?</h3>
-                <p> Plazma je superzagrejani gas u kome su se atomi „raspali”. Elektroni se odvajaju od atoma, pa umesto
-                    neutralnih čestica dobijamo pozitivno naelektrisane čestice i slobodne elektrone. Zbog toga plazma
-                    može
-                    da provodi struju i reaguje na magnetna polja. <br>
 
-                    Plazmu možeš da vidiš u munjama, neonskim svetlima, i naravno — u Suncu i svim drugim zvezdama.
-                    Dakle,
-                    iako je retka na Zemlji, plazma bukvalno osvetljava svemir! <br>
-
-                    I ako ti to već nije dovoljno neobično — postoji i još čudnije stanje materije koje se zove
-                    Bose–Einsteinov kondenzat. Tada se materija ponaša kao jedan veliki „super-atom“ kada se ohladi na
-                    neverovatno niske temperature. Govorimo o temperaturi koja je hladnija čak i od svemira!</p>
 
             </div>
+        </div>
     </section>
-    <section id="quiz-section" aria-label="Quiz about chemistry and matter">
-        <h2 class="section-title">Quick Science Quiz</h2>
+    <h3>A šta je zapravo plazma?</h3>
+    <p> Plazma je superzagrejani gas u kome su se atomi „raspali”. Elektroni se odvajaju od atoma, pa umesto
+        neutralnih čestica dobijamo pozitivno naelektrisane čestice i slobodne elektrone. Zbog toga plazma
+        može
+        da provodi struju i reaguje na magnetna polja. <br>
+
+        Plazmu možeš da vidiš u munjama, neonskim svetlima, i naravno — u Suncu i svim drugim zvezdama.
+        Dakle,
+        iako je retka na Zemlji, plazma bukvalno osvetljava svemir! <br>
+
+        I ako ti to već nije dovoljno neobično — postoji i još čudnije stanje materije koje se zove
+        Bose–Einsteinov kondenzat. Tada se materija ponaša kao jedan veliki „super-atom“ kada se ohladi na
+        neverovatno niske temperature. Govorimo o temperaturi koja je hladnija čak i od svemira!</p>
+    <section id="quiz-section" aria-label="Brzi kviz (test) o agregatnim stanjima supstance">
+        <h2 class="section-title">Kratki naučni kviz</h2>
         <div id="quiz-box">
             <div id="quiz-question">
                 <img src="/images/avatars/teacher.svg" alt="Teacher's avatar" width="100" height="106" />
@@ -161,21 +170,25 @@ permalink: /sr/hemija/agregatna-stanja.html
             <div id="result" style="display: none; margin-top: 1rem; font-size: 1.1rem; text-align: center;"
                 role="alert" aria-live="polite">
                 <p id="feedback" style="font-weight: bold;"></p>
-                <button class="btn btn-primary" id="review-link">Review the lesson</button>
+                <button class="btn btn-primary" id="review-link">Pročitaj ponovo</button>
+                <a href="/sr/hemija/promene-agregatnog-stanja.html" class="btn btn-primary" id="next-lesson">Promene
+                    agregatnih stanja</a>
             </div>
         </div>
     </section>
     <script>
+        const successMessage = "Bravo! Mislim da možeš da pređeš na sledeću temu.";
+        const failureMessage = "Izgleda da ti treba još malo vremena da ovo naučiš.";
         const questions = [
             {
-                text: "What is chemistry mainly concerned with?",
-                answers: ["Emotions and human behavior", "Substance and the changes it undergoes", "The movement of planets", "Numbers and calculations"],
-                correct: 1,
+                text: "U kom od navedenih agregatnih stanja se čestice najbrže kreću?",
+                answers: ["U gasovitom", "U tečnom", "U čvrstom"],
+                correct: 0,
             },
             {
-                text: "Which of the following is NOT considered a substance?",
-                answers: ["Water", "Aluminum", "Plastic", "Love"],
-                correct: 3,
+                text: "Supstance zauzimaju veću zapreminu kad su u čvrstom agregatnom stanju nego kad su u gasovitom?",
+                answers: ["Tačno", "Netačno"],
+                correct: 1,
             }
 
         ];

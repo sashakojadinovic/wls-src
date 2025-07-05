@@ -46,11 +46,15 @@ table {
 
         td {
             padding: 1rem;
+            text-align: center;
 
             img {
                 width: 100%;
                 height: auto;
-                display: block;
+
+                @media (min-width: 768px) {
+                    width: auto;
+                }
             }
 
         }
