@@ -6,6 +6,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   //
   eleventyConfig.addPassthroughCopy("src/sr/hemija/images");
+    eleventyConfig.addFilter("stripTrailingSlash", function(url) {
+    return url.replace(/\/$/, "");
+  });
   return {
     dir: {
       input: "src",

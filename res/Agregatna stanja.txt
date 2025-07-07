@@ -1,17 +1,5 @@
-Marko: O čemu razmišljaš, Saro?
-Sara: Razmišljam o tome kako je napolju vrelo, a tvoje srce i dalje ledeno.
-Marko: Ne razumem šta si htela da kažeš, ali dala si mi ideju da danas objasnimo jednu veoma važnu stvar za nauku - agregatna stanja.
-Sara: Pa, ako baš mora.
-Marko: Spomenula si malopre led. Da li su led i voda isto?
-Sara: Hm, pa nisu isto. Mislim voda je tečna, a led je čvrst, ali mogu lako da se pretvaraju jedno u drugo. Evo ne znam.
-Marko: Probaću da postavim pitanje preciznije. Da li su voda i led ista supstanca?
-Sara: Sastoje se od istih čestica koje zovemo molekuli. U ovom slučaju i voda i led se sastoje od istih molekula H2O. Onda izgleda da je u pitanju ista supstanca.
-Marko: Bravo, Saro, ako su sačinjeni od istih čestica, onda su led, voda i vodena para ista supstance. Sastoje od istih molekula - molekula vode H2O.
-Sara: Zašto onda ne izgledaju isto, ako su već ista supstanca i čine ih iste čestice?
-Marko: Zato što su u  ta tri oblika supstance koja zovemo agregatna stanja čestice (u ovom primeru su to molekuli vode) drugačije uređeni, drugačije razmaknuti jedni u odnosu na druge i kreću se različitim brzinama.
-Sara: E pa sad ja tebe ništa ne razumem. Nacrtaj mi.
-Marko: Objasniću ti, a ti onda probaj sama da nacrtaš.  U čvrstom agregatnom stanju čestice od kojih je sačinjena supstanca su zbijene jedna uz drugu, razmak između njih je mali i one se sporo kreću. Zbog toga što su zbijene, suptance u čvrstom agregatnom stanju obično zauzimaju manju zapareminu nego u tečnom i gasovitom agregatnom stanju. Kad je supstanca u tečnom agregatnom stanju čestice se kreću nešto brže, pa je razmak između njih bude malo veći, a veze među česticama slabije. U gasovitom agregatnom stanju čestice se veoma brzo kreću, možemo reći slobodo da se haotično i brzo kreću, sudaraju se jedne sa drugima, zbog toga je razmak između njih veći nego u čvrstom i tečnom agregatnom stanju.
-Sara: Aha, kad malo razmislim to je u skladu sa činjenicom da se toplije supstance razlikuju od hladnijih po tome što se u toplijim čestice brže kreću i što je toplije brzina kretanja čestica je sve veća?
-Marko: Tako je. A što je brzina kretanja čestica veća, više je sudara i sve je manji razmak između čestica, a sve veći haos. Zato agregatno stanje supstance zavisi od temperature. Kada supstancu u čvrstom agregatnom stanju zagrevamo, čestice se sve brže kreću, a veze među njima su sve slabije dok se u jednom trenutku ta čvrsta struktura ne "uruši" i supstanca postane tečna.
-Sara: Oh, Marko, srce ti jeste ledeno ali su ti misli i reči baš tečne ;)
+Sara: Marko, imam jedno pitanje za tebe koji sve znaš.
+Marko: Spreman sam.
+Sara: Supstanca u ovoj čaši je voda, to je jasno. Ako bih iz čaše izdvojila samo jednu kap, to bi i dalje bila voda. Ali ako bih iz te sićušne kapi izdvojila jedan hiljaditi deo, koji više ne bih ni mogla da vidim golim okom, da li bi to i dalje bila ista supstanca - voda?
+
 
