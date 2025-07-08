@@ -1,0 +1,100 @@
+---
+layout: layout.njk
+lang: "en"
+title: Lesson_Title
+metaDescription: "Lesson_Description"
+permalink: /chemistry/filename.html
+---
+
+<article>
+    <h1>Lesson_Title</h1>
+    <h2>Lesson_Subtitle</h2>
+    <section class="dialogue" aria-label="Dialogue between Mark and Sara about chemistry">
+        <h2 class="section-title"></h2>
+        <div class="dialogue-turn show-after-1" data-speaker="Sara">
+            <img src="/images/avatars/sara2.svg" width="100" height="106" alt="Sara's avatar" class="avatar" />
+            <p class="bubble question">Sara_says</p>
+        </div>
+        <div class="dialogue-turn show-after-2" data-speaker="Mark">
+            <img src="/images/avatars/mark.svg" width="100" height="106" alt="Mark's avatar" class="avatar" />
+            <p class="bubble answer">Mark_says</p>
+
+
+        <div class="dialogue-mix show-after-3" data-speaker="Mark and Sara">
+            <p><strong>Mark: </strong>Mark_says</p>
+            <p><strong>Sara: </strong>Sara_says</p>
+            <p><strong>Mark: </strong>Mark_says</p>
+            <p><strong>Sara: </strong>Sara_says</p>
+            <p><strong>Mark: </strong>Mark_says</p>
+            <p><strong>Sara: </strong>Sara_says</p>
+            <p><strong>Mark: </strong>Mark_says</p>
+            <p><strong>Sara: </strong>Sara_says 😏</p>
+            <p><strong>Mark: </strong>Mark_says</p>
+            <p><strong>Sara: </strong>Sara_says😍</p>
+            <p><strong>Mark: </strong>Mark_says</p>
+        </div>
+
+    </section>
+    <section class="resume">
+        <h2 class="section-title">Key Science Concepts</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Teacher">
+            <img src="/images/avatars/teacher.svg" width="100" height="106" alt="Teacher avatar" class="avatar" />
+            <p class="bubble info"></p>
+        </div>
+
+        <div class="svg-wrapper">
+            <img width="318" height="276" src="/chemistry/images/phase-transitions.svg"
+                alt="Diagram of changes of state">
+        </div>
+
+        <div class="resume-description">
+            <dl class="glossary">
+                <dt>Term_title</dt>
+                <dd>Term_definition</dd>
+                
+            </dl>
+        </div>
+    </section>
+    <section id="fun-fact-section">
+        <h2 class="section-title">Science Fun Fact</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Teacher">
+            <img src="/images/avatars/sara2.svg" width="100" height="106" alt="Teacher avatar" class="avatar" />
+            <p class="bubble info"> <br>
+
+            </p>
+        </div>
+    </section>
+    <section id="quiz-section" aria-label="Quiz about chemistry and matter">
+        <h2 class="section-title">Quick Science Quiz</h2>
+        <div id="quiz-box">
+            <div id="quiz-question">
+                <img src="/images/avatars/teacher.svg" alt="Teacher's avatar" width="100" height="106" />
+
+                <p id="question-text" class="bubble question">...</p>
+            </div>
+
+            <div id="answers">
+            </div>
+
+            <div id="result" style="display: none; margin-top: 1rem; font-size: 1.1rem; text-align: center;"
+                role="alert" aria-live="polite">
+                <p id="feedback" style="font-weight: bold;"></p>
+                <button class="btn btn-primary" id="review-link">Review the lesson</button>
+                <a href="nexturl" class="btn btn-primary" id="next-lesson">NEXT</a>
+            </div>
+        </div>
+    </section>
+    <script>
+        const successMessage = "Great job! You are ready for the next lesson.";
+        const failureMessage = "Looks like you could use a bit more practice.";
+        const questions = [
+            {
+                text: "?",
+                answers: ["answer", "answer", "answer0", "answer0"],
+                correct: 0,
+            },           
+        ];
+    </script>
+    <script src="/js/quiz.js"></script>
+
+</article>
