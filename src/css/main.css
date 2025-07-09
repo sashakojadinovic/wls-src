@@ -67,6 +67,7 @@ table tr td img {
   height: 19px;
   cursor: pointer;
   position: relative;
+  margin-right: 1rem;
   z-index: 3;
 }
 #hamburger span {
@@ -115,9 +116,15 @@ nav a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #0a3d62;
   text-decoration: none;
-  font-size: 2rem;
+  text-align: center;
+  font-size: 1.25rem;
   margin: 1rem 0;
   transition: color 0.3s;
+}
+@media (min-width: 768px) {
+  nav a {
+    font-size: 2rem;
+  }
 }
 nav a:hover {
   color: #a2e8ff;
@@ -178,11 +185,16 @@ nav.active {
 }
 .wrapper header .header-content {
   max-width: 1200px;
-  margin: 10px auto 0;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 0.5rem;
+}
+@media (min-width: 768px) {
+  .wrapper header .header-content {
+    margin: 0.625rem auto 0;
+  }
 }
 .wrapper header .header-content .logo-container img {
   width: 150px;
@@ -195,7 +207,7 @@ nav.active {
 .container {
   max-width: 1200px;
   margin: 2rem auto 0;
-  padding: 15px 5px;
+  padding: 1rem 0.5rem;
 }
 @media (min-width: 768px) {
   .container {
