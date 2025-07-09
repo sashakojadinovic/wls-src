@@ -61,7 +61,7 @@
             padding: 0 .5rem;
 
             @media (min-width: 768px) {
-                 margin: 0.625rem auto 0;
+                margin: 0.625rem auto 0;
             }
 
             .logo-container {
@@ -124,10 +124,31 @@
 .dialogue-turn {
     display: flex;
     align-items: center;
-    margin: 1em .5em;
+    margin: 0 .5rem;
     opacity: 0;
     transform: translateY(10px);
     animation: fadeInUp 0.6s ease forwards;
+    max-width: 600px;
+
+    &:nth-of-type(even) {
+        justify-content: end;
+
+        .avatar {
+            order: 1;
+            margin: 0 0 0 1rem;
+        }
+
+        .question, .answer {
+            order: 0;
+
+            &::before {
+                right: -9px;
+                left: inherit;
+                transform: scaleX(-1);
+                top: 30%;
+            }
+        }
+    }
 
     .avatar {
         width: 100px;
@@ -196,6 +217,7 @@
 .resume-description {
     background-color: @color_background_light;
     border-radius: 10px;
+    margin-top: 1rem;
     padding: 15px;
     opacity: 0;
     transform: translateY(10px);
