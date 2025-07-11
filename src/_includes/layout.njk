@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <meta name="description" content="{{ metaDescription }}">
+    {% if hr and lang != "hr" %}
+      <link rel="alternate" hreflang="hr-HR" href="{{ hr }}">
+    {% endif %}
+    {% if en and lang != "en" %}
+      <link rel="alternate" hreflang="en" href="{{ en }}">
+    {% endif %}
+    {% if sr and lang != "sr" %}
+      <link rel="alternate" hreflang="sr-RS" href="{{ sr }}">
+    {% endif %}
     <link rel="stylesheet" href="/css/main.css">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-
   </head>
   <body>
     <div class="wrapper">

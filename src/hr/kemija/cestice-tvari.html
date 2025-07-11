@@ -1,0 +1,101 @@
+---
+layout: layout.njk
+lang: "hr"
+title: Čestice od kojih su sačinjene tvari
+metaDescription: "Naučimo da su tvari građene od vrlo sitnih čestica koje imaju svojstva tih tvari."
+permalink: /hr/kemija/cestice-tvari.html
+en: /chemistry/particles-of-matter.html
+---
+
+<article>
+    <h1>Čestice od kojih su sačinjene tvari</h1>
+    <h2>Najsitnije čestice tvari koje imaju svojstva tih tvari</h2>
+    <section class="dialogue" aria-label="Dijalog Marka i Sare o najsitnijim česticama tvari">
+        <h2 class="section-title">Djeca razgovaraju o znanosti</h2>
+        <div class="dialogue-turn show-after-1" data-speaker="Sara">
+            <img src="/images/avatars/sara2.svg" width="100" height="106" alt="Avatar Sare" class="avatar" />
+            <p class="bubble question">Marko, imam jedno pitanje za tebe koji sve znaš.</p>
+        </div>
+        <div class="dialogue-turn show-after-2" data-speaker="Marko">
+            <img src="/images/avatars/mark.svg" width="100" height="106" alt="Avatar Marka" class="avatar" />
+            <p class="bubble answer">Spreman sam.</p>
+        </div>
+
+        <div class="dialogue-mix show-after-3" data-speaker="Marko i Sara">
+            <p><strong>Sara: </strong>Tvar u ovom starom laboratorijskom termometru koja se širi i skuplja s promjenom temperature zove se živa?</p>
+            <p><strong>Marko: </strong>Tako je, i moraš biti oprezna s živom jer je to otrovna tvar.</p>
+            <p><strong>Sara: </strong>Hvala što brineš, ali ovo je zamišljeni eksperiment. Zamisli sad jednu sitnu kap žive u obliku kuglice na stolu. Bismo li mogli taj klikerić podijeliti na dva manja?</p>
+            <p><strong>Marko: </strong>Mogli bismo.</p>
+            <p><strong>Sara: </strong>Pa onda na još dvije polovice, pa opet, i tako mnogo puta.</p>
+            <p><strong>Marko: </strong>Da, mogli bismo kuglicu žive dijeliti na sve manje i manje dijelove jako, jako mnogo puta.</p>
+            <p><strong>Sara: </strong>I koliko god puta je dijelili, to bi i dalje bila živa?</p>
+            <p><strong>Marko: </strong>Hm... Pa ne baš. U nekom trenutku došli bismo do najmanje čestice žive koju više ne bismo mogli lako podijeliti. Čak i da to učinimo, ono što bismo dobili više ne bi bila živa.</p>
+            <p><strong>Sara: </strong>Znači postoji... kako bismo to rekli... hmm... najsitnija čestica tvari?</p>
+            <p><strong>Marko: </strong>Baš tako. Svaka tvar sastavljena je od vrlo sitnih čestica koje imaju svojstva te tvari i zapravo jesu ta tvar.</p>
+            <p><strong>Sara: </strong>Znam kako se te čestice zovu u znanosti. 😎</p>
+            <p><strong>Marko: </strong>Znam da znaš. To je važan znanstveni pojam, ali hajdemo ga sačuvati za sljedeću lekciju.</p>
+            <p><strong>Sara: </strong>Te najsitnije čestice su atomi, molekule i ioni. 😎</p>
+            <p><strong>Marko: </strong>SARO!</p>
+            <p><strong>Sara: </strong>Dobro, dobro, šutim. Nazvat ćemo ih zasad jednostavno – čestice.</p>
+            <p><strong>Marko: </strong>Dogovoreno. Reći ćemo samo da se svaka tvar sastoji od vrlo sitnih čestica koje se u znanosti zovu atomi, molekule i ioni.</p>
+            <p><strong>Sara: </strong>MARKO!</p>
+            <p><strong>Marko: </strong>Oprosti, da... nazvat ćemo ih samo "čestice". Najsitnije čestice tvari koje imaju svojstva te tvari.</p>
+        </div>
+    </section>
+
+    <section class="resume">
+        <h2 class="section-title">Ključni znanstveni pojmovi</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Učitelj">
+            <img src="/images/avatars/teacher.svg" width="100" height="106" alt="Avatar učitelja" class="avatar" />
+            <p class="bubble info">Sara i Marko nisu uspjeli sačuvati tajnu o atomima, molekulama i ionima kao najsitnijim česticama tvari, pa smo svi čuli da su to čestice koje imaju svojstva određene tvari.<br>
+            O tim česticama govorit ćemo detaljnije drugi put. Za sada je važno zapamtiti da postoje i da se svaka tvar sastoji od neke od te tri vrste čestica.</p>
+        </div>
+    </section>
+
+    <section id="fun-fact-section">
+        <h2 class="section-title">Zanimljivosti iz znanosti</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Učitelj">
+            <img src="/images/avatars/mark.svg" width="100" height="106" alt="Avatar učitelja" class="avatar" />
+            <div class="bubble info">
+                <p>U samo jednoj kapi vode ima više čestica (u ovom slučaju molekula) nego što ima zvijezda u galaksiji. Milijarde milijardi sićušnih čestica koje se stalno kreću i nasumično sudaraju.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz-section" aria-label="Brzi kviz o česticama tvari">
+        <h2 class="section-title">Kratki znanstveni kviz</h2>
+        <div id="quiz-box">
+            <div id="quiz-question">
+                <img src="/images/avatars/teacher.svg" alt="Avatar učitelja" width="100" height="106" />
+                <p id="question-text" class="bubble question">...</p>
+            </div>
+
+            <div id="answers"></div>
+
+            <div id="result" style="display: none; margin-top: 1rem; font-size: 1.1rem; text-align: center;"
+                role="alert" aria-live="polite">
+                <p id="feedback" style="font-weight: bold;"></p>
+                <button class="btn btn-primary" id="review-link">Pročitaj ponovno</button>
+                <a href="/hr/kemija/agregatna-stanja.html" class="btn btn-primary" id="next-lesson">Agregatna stanja tvari</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const successMessage = "Bravo! Mislim da možeš prijeći na sljedeću temu.";
+        const failureMessage = "Čini se da ti treba još malo vremena da ovo naučiš.";
+        const questions = [
+            {
+                text: "Je li moguće tvar dijeliti beskonačno i neograničeno na sve sitnije dijelove?",
+                answers: ["Točno", "Netočno"],
+                correct: 1,
+            },
+            {
+                text: "Kreću li se najsitnije čestice tvari stalno i sudaraju međusobno?",
+                answers: ["Da", "Ne"],
+                correct: 0,
+            },
+        ];
+    </script>
+    <script src="/js/quiz.js"></script>
+</article>

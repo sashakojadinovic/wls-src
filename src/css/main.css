@@ -62,6 +62,24 @@ table tr td img {
     width: auto;
   }
 }
+.lang-and-nav {
+  display: flex;
+  align-items: center;
+}
+.languages {
+  margin-right: 0.5rem;
+}
+.languages ul {
+  padding: 0 1rem 0;
+}
+.languages ul li {
+  list-style: none;
+  display: inline;
+}
+.languages ul li a {
+  text-decoration: none;
+  color: #000000;
+}
 #hamburger {
   width: 24px;
   height: 19px;

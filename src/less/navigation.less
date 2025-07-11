@@ -1,5 +1,24 @@
  @import "variables/colors.less";
 
+ .lang-and-nav {
+    display: flex;
+    align-items: center;
+ }
+
+ .languages {
+    margin-right: .5rem;
+    ul{
+        padding: 0 1rem 0; 
+        li {
+            list-style: none;
+            display: inline;
+            a{
+                text-decoration: none;
+                color: @color_foreground_dark;
+            }
+        }
+    }
+ }
  #hamburger {
      width: 24px;
      height: 19px;
