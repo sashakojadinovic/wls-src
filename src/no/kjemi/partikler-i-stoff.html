@@ -1,0 +1,102 @@
+---
+layout: layout.njk
+lang: "no"
+title: Partiklene som stoffer er laget av
+metaDescription: "La oss lære at stoffer er bygget opp av svært små partikler som har egenskapene til stoffet."
+permalink: /no/kjemi/partikler-i-stoff.html
+en: /chemistry/particles-of-matter.html
+hr: /hr/kemija/cestice-tvari.html
+---
+
+<article>
+    <h1>Partiklene som stoffer er laget av</h1>
+    <h2>De minste partiklene i et stoff som har stoffets egenskaper</h2>
+
+    <section class="dialogue" aria-label="Dialog mellom Mark og Sara om partikler i stoff">
+        <h2 class="section-title">Barn snakker om vitenskap</h2>
+        <div class="dialogue-turn show-after-1" data-speaker="Sara">
+            <img src="/images/avatars/sara2.svg" width="100" height="106" alt="Saras avatar" class="avatar" />
+            <p class="bubble question">Mark, jeg har et spørsmål til deg som vet alt.</p>
+        </div>
+        <div class="dialogue-turn show-after-2" data-speaker="Mark">
+            <img src="/images/avatars/mark.svg" width="100" height="106" alt="Marks avatar" class="avatar" />
+            <p class="bubble answer">Klar som alltid!</p>
+        </div>
+
+        <div class="dialogue-mix show-after-3" data-speaker="Mark og Sara">
+            <p><strong>Sara: </strong> Stoffet i dette gamle laboratorietermometeret som utvider og trekker seg sammen når temperaturen endres – det heter kvikksølv?</p>
+            <p><strong>Mark: </strong>Det stemmer, og man må være forsiktig med kvikksølv, for det er giftig.</p>
+            <p><strong>Sara: </strong> Takk for at du passer på, men dette er et tenkt eksperiment. Se for deg en liten dråpe kvikksølv som en kule på bordet. Kunne vi delt den kulen i to mindre?</p>
+            <p><strong>Mark: </strong>Ja, det kunne vi.</p>
+            <p><strong>Sara: </strong>Og så dele de to igjen, og igjen, og igjen mange ganger?</p>
+            <p><strong>Mark: </strong>Ja, vi kunne delt kvikksølvet mange, mange ganger i mindre og mindre kuler.</p>
+            <p><strong>Sara: </strong>Og uansett hvor mange ganger vi deler det, ville det fortsatt være kvikksølv?</p>
+            <p><strong>Mark: </strong>Hmm… Ikke helt. På et tidspunkt ville vi nå den minste delen vi ikke lenger kunne dele opp. I hvert fall ikke uten å forandre det. Og da ville det vi fikk, ikke lenger være kvikksølv.</p>
+            <p><strong>Sara: </strong>Så det betyr at det finnes… hva skal vi si… den minste delen av et stoff?</p>
+            <p><strong>Mark: </strong>Akkurat. Hvert stoff er laget av bittesmå partikler som har stoffets egenskaper – og faktisk er stoffet.</p>
+            <p><strong>Sara: </strong>Jeg vet hva de kalles i naturfag. 😎</p>
+            <p><strong>Mark: </strong>Jeg vet du vet det, det er et viktig begrep, men la oss spare det til en senere leksjon.</p>
+            <p><strong>Sara: </strong>De minste partiklene er atomer, molekyler og ioner. 😎</p>
+            <p><strong>Mark: </strong>SARA!</p>
+            <p><strong>Sara: </strong>Ok, ok, jeg skal være stille. Vi kaller dem bare «partikler» foreløpig.</p>
+            <p><strong>Mark: </strong>Avtale. Vi sier bare at hvert stoff består av noen veldig små partikler som i vitenskapen kalles atomer, molekyler og ioner.</p>
+            <p><strong>Sara: </strong>MARK!</p>
+            <p><strong>Mark: </strong>Beklager! Ja, vi skal bare kalle dem «partikler». De minste partiklene som har stoffets egenskaper.</p>
+        </div>
+    </section>
+
+    <section class="resume">
+        <h2 class="section-title">Viktige faglige begreper</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Lærer">
+            <img src="/images/avatars/teacher.svg" width="100" height="106" alt="Lærerens avatar" class="avatar" />
+            <p class="bubble info">Mark og Sara klarte ikke å holde på hemmeligheten om atomer, molekyler og ioner – så nå vet vi alle at disse er de minste partiklene i et stoff som har stoffets egenskaper. <br> Vi skal lære mer om dem senere, men det viktigste nå er å vite at slike partikler finnes, og at alle stoffer består av en eller flere av disse typene partikler.</p>
+        </div>
+    </section>
+
+    <section id="fun-fact-section">
+        <h2 class="section-title">Visste du?</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Lærer">
+            <img src="/images/avatars/mark.svg" width="100" height="106" alt="Lærerens avatar" class="avatar" />
+            <div class="bubble info">
+                <p>I bare én eneste vanndråpe finnes det flere partikler (i dette tilfellet molekyler) enn det finnes stjerner i galaksen vår. Billioner på billioner av små partikler som hele tiden beveger seg og kolliderer tilfeldig med hverandre.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz-section" aria-label="Quiz om partikler og stoff">
+        <h2 class="section-title">Liten vitenskapsquiz</h2>
+        <div id="quiz-box">
+            <div id="quiz-question">
+                <img src="/images/avatars/teacher.svg" alt="Lærerens avatar" width="100" height="106" />
+                <p id="question-text" class="bubble question">...</p>
+            </div>
+
+            <div id="answers"></div>
+
+            <div id="result" style="display: none; margin-top: 1rem; font-size: 1.1rem; text-align: center;"
+                role="alert" aria-live="polite">
+                <p id="feedback" style="font-weight: bold;"></p>
+                <button class="btn btn-primary" id="review-link">Les leksjonen på nytt</button>
+                <a href="/no/kjemi/aggregattilstander.html" class="btn btn-primary" id="next-lesson">Aggregattilstander</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const successMessage = "Bra jobbet! Klar for neste tema.";
+        const failureMessage = "Det virker som du trenger litt mer øvelse.";
+        const questions = [
+            {
+                text: "Kan et stoff deles uendelig mange ganger i stadig mindre deler?",
+                answers: ["Sant", "Usant"],
+                correct: 1,
+            },
+            {
+                text: "Beveger og kolliderer stoffets minste partikler hele tiden?",
+                answers: ["Ja", "Nei"],
+                correct: 0,
+            },
+        ];
+    </script>
+    <script src="/js/quiz.js"></script>
+</article>

@@ -6,13 +6,16 @@
     <title>{{ title }}</title>
     <meta name="description" content="{{ metaDescription }}">
     {% if hr and lang != "hr" %}
-      <link rel="alternate" hreflang="hr-HR" href="{{ hr }}">
+      <link rel="alternate" hreflang="hr-HR" href="{{site.url}}{{ hr }}">
     {% endif %}
     {% if en and lang != "en" %}
-      <link rel="alternate" hreflang="en" href="{{ en }}">
+      <link rel="alternate" hreflang="en" href="{{site.url}}{{ en }}">
+    {% endif %}
+    {% if no and lang != "no" %}
+      <link rel="alternate" hreflang="nb-NO" href="{{site.url}}{{ no }}">
     {% endif %}
     {% if sr and lang != "sr" %}
-      <link rel="alternate" hreflang="sr-RS" href="{{ sr }}">
+      <link rel="alternate" hreflang="sr-RS" href="{{site.url}}{{ sr }}">
     {% endif %}
     <link rel="stylesheet" href="/css/main.css">
     <link rel="icon" href="/favicon.ico" sizes="any">

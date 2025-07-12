@@ -1,0 +1,104 @@
+---
+layout: layout.njk
+lang: "no"
+title: Hva er kjemi?
+metaDescription: "Lær hva kjemi er, hvorfor det kalles den sentrale vitenskapen, og hvordan det hjelper oss å forstå verden rundt oss. Enkelt forklart for barn og nysgjerrige."
+permalink: /no/kjemi/hva-er-kjemi.html
+en: /chemistry/what-is-chemistry.html
+hr: /hr/kemija/sto-je-kemija.html
+---
+<article>
+    <h1>Hva er kjemi?</h1>
+    <h2>Innledning til kjemi. Stoff – det kjemien handler om</h2>
+    <section class="dialogue" aria-label="Dialog mellom Mark og Sara om kjemi">
+        <h2 class="section-title">Barn snakker om vitenskap</h2>
+        <div class="dialogue-turn show-after-1" data-speaker="Sara">
+            <img src="/images/avatars/sara.svg" width="100" height="106" alt="Saras avatar" class="avatar" />
+            <p class="bubble question">Hei, Mark – er det kjemi mellom oss?</p>
+        </div>
+
+        <div class="dialogue-turn show-after-2" data-speaker="Mark">
+            <img src="/images/avatars/mark.svg" width="100" height="106" alt="Marks avatar" class="avatar" />
+            <p class="bubble answer">Hei, Sara. Kjemi er overalt – i oss og rundt oss.</p>
+        </div>
+
+        <div class="dialogue-mix show-after-3" data-speaker="Mark og Sara">
+            <p><strong>Sara: </strong>Jeg mente noe annet, men fortsett gjerne – jeg liker å høre deg snakke. 😊</p>
+            <p><strong>Mark: </strong>Da bør du høre godt etter. Kjemi er en fantastisk vitenskap.</p>
+            <p><strong>Sara: </strong>Hva handler den om? Jeg vil gjerne at mitt store idol forklarer meg hva kjemi handler om. 😊</p>
+            <p><strong>Mark: </strong>Kjemi handler om å studere <em>stoff</em>, så vi kan si at stoff er det kjemien undersøker.</p>
+            <p><strong>Sara: </strong>Hva er stoff?</p>
+            <p><strong>Mark: </strong>Stoff er alt som har masse og opptar plass. Det finnes så mange eksempler at det er vanskelig å tenke på noe som ikke består av stoff.</p>
+            <p><strong>Sara: </strong>Hva med kjærlighet, Mark? Den har ikke masse og tar ingen plass, selv om det føles som om magen min er full av sommerfugler.</p>
+            <p><strong>Mark: </strong>Du har rett. Kjærlighet er en følelse, ikke et stoff. Men alt som ting rundt oss er laget av – og vi selv også – det er stoff.</p>
+            <p><strong>Sara: </strong>Så telefonen min er laget av forskjellige stoffer, som plast, glass og metall?</p>
+            <p><strong>Mark: </strong>Det stemmer. Det finnes mange typer plast. Jeg vet tilfeldigvis at telefonen din er laget av en type plast som kalles polykarbonat, og metallbitene er laget av aluminium.</p>
+            <p><strong>Sara: </strong>Jeg liker at du “tilfeldigvis” har undersøkt hva telefonen min er laget av. 😉</p>
+            <p><strong>Mark: </strong>Jeg liker å vite alt som har med vitenskap å gjøre, Sara.</p>
+            <p><strong>Sara: </strong>Liker? Det høres nesten romantisk ut, Mark.</p>
+            <p><strong>Mark: </strong>Tro det eller ei, men hvis vi undersøker kjærlighet vitenskapelig, kommer vi tilbake til kjemi – og noen stoffer som får oss til å føle oss forelsket.</p>
+            <p><strong>Sara: </strong>Så det ER kjemi! Jeg visste det! 😍</p>
+        </div>
+    </section>
+
+    <section class="resume">
+        <h2 class="section-title">Viktige faglige begreper</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Lærer">
+            <img src="/images/avatars/teacher.svg" width="100" height="106" alt="Lærerens avatar" class="avatar" />
+            <p class="bubble info">La oss se hva vi har lært.</p>
+        </div>
+        <div class="resume-description">
+            <dl class="glossary">
+                <dt>Kjemi</dt>
+                <dd>En naturvitenskap som studerer stoff, egenskaper ved stoffer og forandringer som skjer med dem.</dd>
+                <dt>Stoff</dt>
+                <dd>Alt som har masse og opptar plass. Alle ting (fysiske objekter) er laget av stoff.</dd>
+            </dl>
+        </div>
+    </section>
+
+    <section id="fun-fact-section">
+        <h2 class="section-title">Visste du?</h2>
+        <div class="dialogue-turn show-after-3" data-speaker="Sara">
+            <img src="/images/avatars/sara.svg" width="100" height="106" alt="Saras avatar" class="avatar" />
+            <p class="bubble info">Ordet “kjemi” kommer fra det gamle egyptiske ordet “khem” som betyr “svart jord”. Det var navnet på den fruktbare jorden ved Nilen. Kjemi begynte som alkymi – en blanding av magi og tidlig vitenskap. Akkurat som i Harry Potter-bøkene!</p>
+        </div>
+    </section>
+
+    <section id="quiz-section" aria-label="Quiz om kjemi og stoff">
+        <h2 class="section-title">Liten vitenskapsquiz</h2>
+        <div id="quiz-box">
+            <div id="quiz-question">
+                <img src="/images/avatars/teacher.svg" alt="Lærerens avatar" width="100" height="106" />
+                <p id="question-text" class="bubble question">...</p>
+            </div>
+
+            <div id="answers"></div>
+
+            <div id="result" style="display: none; margin-top: 1rem; font-size: 1.1rem; text-align: center;"
+                role="alert" aria-live="polite">
+                <p id="feedback" style="font-weight: bold;"></p>
+                <button class="btn btn-primary" id="review-link">Les leksjonen på nytt</button>
+                <a href="/no/kjemi/partikler-i-stoff.html" class="btn btn-primary" id="next-lesson">Partiklene i stoff</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const successMessage = "Bra jobbet! Klar for neste tema.";
+        const failureMessage = "Det virker som du trenger litt mer øvelse.";
+        const questions = [
+            {
+                text: "Hva handler kjemi om?",
+                answers: ["Menneskelig atferd og følelser", "Stoff og endringer som skjer med stoffer", "Bevegelsen til planeter", "Tall og geometriske figurer"],
+                correct: 1,
+            },
+            {
+                text: "Hvilket av følgende er IKKE et stoff?",
+                answers: ["Vann", "Aluminium", "Plast", "Kjærlighet"],
+                correct: 3,
+            }
+        ];
+    </script>
+    <script src="/js/quiz.js"></script>
+</article>

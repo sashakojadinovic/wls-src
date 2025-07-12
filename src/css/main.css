@@ -79,6 +79,7 @@ table tr td img {
 .languages ul li a {
   text-decoration: none;
   color: #000000;
+  padding-right: 0.5rem;
 }
 #hamburger {
   width: 24px;
