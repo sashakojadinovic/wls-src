@@ -1,9 +1,13 @@
 <div class="lang-and-nav">
   <div class="languages">
-    <ul>
-      <li><a href="{{en}}">EN</a></li>
-      <li><a href="{{hr}}">HR</a></li>
-    </ul>
+   <ul>
+  {% if en %}
+    <li><a href="{{ en }}">EN</a></li>
+  {% endif %}
+  {% if hr %}
+    <li><a href="{{ hr }}">HR</a></li>
+  {% endif %}
+</ul>
   </div>
 <div id="hamburger" class="hamburger" onclick="toggleMenu()">
   <div class="hamburger-active-area">
