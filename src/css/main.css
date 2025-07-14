@@ -166,6 +166,15 @@ nav.active {
     height: auto;
   }
 }
+.flex {
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .btn {
   display: inline-block;
   padding: 0.75rem;
@@ -182,6 +191,13 @@ nav.active {
 }
 .btn.btn-primary:hover {
   background-color: #1168a7;
+}
+.inline-link {
+  background-color: #d6ebfb;
+  color: #0a3d62;
+}
+.inline-link:hover {
+  background-color: transparent;
 }
 .done-list {
   list-style: none;

@@ -1,0 +1,140 @@
+---
+layout: layout.njk
+lang: "en"
+title: Physical and Chemical Changes of Matter
+metaDescription: "Learn about physical and chemical changes of matter through fun dialogue and cool examples! Perfect introduction to chemistry for curious kids."
+permalink: /chemistry/physical-and-chemical-changes-of-matter.html
+---
+
+<article>
+  <h1>Physical and Chemical Changes</h1>
+  <h2>What’s the difference between a physical and a chemical change?</h2>
+
+  <section class="dialogue" aria-label="Dialogue between Mark and Sara about chemistry">
+    <h2 class="section-title">Kids Talking Science</h2>
+
+    <div class="dialogue-turn show-after-1" data-speaker="Sara">
+      <img src="/images/avatars/sara/sara-white.svg" width="100" height="106" alt="Sara's avatar" class="avatar" />
+      <p class="bubble question">Hey Mark! Did you notice anything different today?</p>
+    </div>
+
+    <div class="dialogue-turn show-after-2" data-speaker="Mark">
+      <img src="/images/avatars/mark/mark-naive.svg" width="100" height="106" alt="Mark's avatar" class="avatar" />
+      <p class="bubble answer">Yeah—you were actually on time for class!</p>
+    </div>
+
+    <div class="dialogue-turn show-after-1" data-speaker="Sara">
+      <img src="/images/avatars/sara/sara-white-hair-happy.svg" width="100" height="106" alt="Sara's avatar" class="avatar" />
+      <p class="bubble question">Ha-ha. What about my hair?</p>
+    </div>
+
+    <div class="dialogue-turn show-after-2" data-speaker="Mark">
+      <img src="/images/avatars/mark/mark.svg" width="100" height="106" alt="Mark's avatar" class="avatar" />
+      <p class="bubble answer">Oh, right—you changed your hair color!</p>
+    </div>
+
+    <div class="dialogue-mix show-after-3" data-speaker="Mark and Sara">
+      <p><strong>Sara:</strong> Good! You noticed the change in me.</p>
+      <p><strong>Mark:</strong> Changes happen in nature all the time. It's fun to observe them.</p>
+      <p><strong>Sara:</strong> Am I part of nature too?</p>
+      <p><strong>Mark:</strong> Of course!</p>
+      <p><strong>Sara:</strong> Then nature must be beautiful, right?</p>
+      <p><strong>Mark:</strong> Nature is the most beautiful thing there is.</p>
+      <p><strong>Sara:</strong> Great, now I’ll actually listen to you. Go on, science star!</p>
+      <p><strong>Mark:</strong> Matter is always moving and changing. And we divide changes into two types: physical and chemical changes.</p>
+      <p><strong>Sara:</strong> Just like <a class="inline-link" href="/chemistry/physical-and-chemical-properties-of-matter.html" title="Physical and Chemical Properties of Matter">properties of matter can be physical and chemical</a>?</p>
+      <p><strong>Mark:</strong> Exactly. If a new substance is created, it’s a chemical change. If not, it’s a physical change.</p>
+      <p><strong>Sara:</strong> What kind of change is it when we freeze water?</p>
+      <p><strong>Mark:</strong> Does it turn into a new substance, Sara?</p>
+      <p><strong>Sara:</strong> No. It becomes ice, but ice is still water—just in a different <a href="/chemistry/state-of-matter.html" class="inline-link" title="State of Matter">state</a>.</p>
+      <p><strong>Mark:</strong> Right! Freezing, like other changes of state, is a physical change—because no new substance is formed.</p>
+      <p><strong>Sara:</strong> Got it! And when we burn a piece of charcoal while making a barbecue, the black stuff turns into something else, right? So that's a chemical change?</p>
+      <p><strong>Mark:</strong> Yes! Burning charcoal produces carbon dioxide gas—a completely new substance with different properties and particles.</p>
+    </div>
+  </section>
+
+  <section class="resume">
+    <h2 class="section-title">Key Science Concepts</h2>
+    <div class="dialogue-turn show-after-3" data-speaker="Teacher">
+      <img src="/images/avatars/teacher/teacher.svg" width="100" height="106" alt="Teacher avatar" class="avatar" />
+      <p class="bubble info"> Sara and Marko are having fun trying to come up with as many examples of physical and chemical changes as they can.  
+    Now it's our turn to write down the clear scientific definitions of these two important types of change.</p>
+    </div>
+
+    <div class="resume-description">
+      <dl class="glossary">
+        <dt>Physical Changes</dt>
+        <dd>Changes in which <strong>no new substances are formed</strong>. The material may change shape or state, but it stays the same substance.</dd>
+        <dt>Chemical Changes</dt>
+        <dd>Changes that result in the <strong>formation of new substances</strong>. The original substance is transformed into something different.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="fun-fact-section">
+    <h2 class="section-title">Science Fun Fact</h2>
+    <div class="dialogue-turn show-after-3" data-speaker="Teacher">
+      <img src="/images/avatars/sara/sara-white.svg" width="100" height="106" alt="Teacher avatar" class="avatar" />
+      <p class="bubble info">A burning candle shows us both types of changes at once!</p>
+    </div>
+
+    <h3>Burning a Candle – Both a Physical and a Chemical Change!</h3>
+    <div class="flex">
+      <img width="180" height="185" src="/images/cartoons/candle.svg" alt="Candle burning">
+      <div>
+        <p>When you light a candle, <strong>both types of changes</strong> happen at the same time!</p>
+        <ul>
+          <li><strong>Physical change:</strong> The wax melts. It just changes from solid to liquid—its substance stays the same.</li>
+          <li><strong>Chemical change:</strong> The flame burns the wax and turns it into gases like carbon dioxide and water vapor—these are new substances!</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="quiz-section" aria-label="Quiz about physical and chemical changes">
+    <h2 class="section-title">Quick Science Quiz</h2>
+    <div id="quiz-box">
+      <div id="quiz-question">
+        <img src="/images/avatars/teacher/teacher.svg" alt="Teacher avatar" width="100" height="106" />
+        <p id="question-text" class="bubble question">...</p>
+      </div>
+
+      <div id="answers"></div>
+
+      <div id="result" style="display: none; margin-top: 1rem; font-size: 1.1rem; text-align: center;" role="alert" aria-live="polite">
+        <p id="feedback" style="font-weight: bold;"></p>
+        <button class="btn btn-primary" id="review-link">Review the lesson</button>
+        <a href="#" class="btn btn-primary" id="next-lesson">NEXT</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const successMessage = "Great job! You're ready to move on.";
+    const failureMessage = "Looks like you need a bit more practice.";
+
+    const questions = [
+      {
+        text: "Which of the following is a physical change?",
+        answers: ["Melting ice", "Burning paper", "Rusting iron", "Baking a cake"],
+        correct: 0,
+      },
+      {
+        text: "What makes a chemical change different from a physical one?",
+        answers: [
+          "It happens faster",
+          "It only changes state",
+          "A new substance is formed",
+          "It can always be reversed"
+        ],
+        correct: 2,
+      },
+      {
+        text: "When a candle burns, what kind of change is melting the wax?",
+        answers: ["Chemical change", "Physical change", "Both", "Neither"],
+        correct: 1,
+      }
+    ];
+  </script>
+  <script src="/js/quiz.js"></script>
+</article>
