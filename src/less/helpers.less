@@ -1,3 +1,4 @@
+@import "variables/colors.less";
 .text-center {
     text-align: center;
 }
@@ -13,5 +14,14 @@
      @media (max-width: 1024px) {
        flex-wrap:wrap;
        justify-content: center;
+    }
+}
+.inline-link {
+    background-color: lighten(@color_background_primary, 70%);
+    color: @color_background_primary;
+
+    &:hover {
+         background-color: transparent;
+
     }
 }

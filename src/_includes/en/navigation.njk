@@ -1,29 +1,32 @@
 <div class="lang-and-nav">
   <div class="languages">
-   <ul>
-  {% if nb %}
-    <li><a href="{{ nb }}" title="Norsk">NO</a></li>
-  {% endif %}
-  {% if hr %}
-    <li><a href="{{ hr }}" title="Hrvatski">HR</a></li>
-  {% endif %}
-</ul>
+    <ul>
+      {% if nb %}
+        <li>
+          <a href="{{ nb }}" title="Norsk">NO</a>
+        </li>
+      {% endif %}
+      {% if hr %}
+        <li>
+          <a href="{{ hr }}" title="Hrvatski">HR</a>
+        </li>
+      {% endif %}
+    </ul>
   </div>
-<div id="hamburger" class="hamburger" onclick="toggleMenu()">
-  <div class="hamburger-active-area">
-    <span></span>
-    <span></span>
-    <span></span>
+  <div id="hamburger" class="hamburger" onclick="toggleMenu()">
+    <div class="hamburger-active-area">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </div>
-</div>
-<nav id="nav">
-  <a href="/chemistry/what-is-chemistry.html">What is Chemistry?</a>
-  <a href="/chemistry/particles-of-matter.html">The Tiny Particles That Make Up All Substances</a>
-  <a href="/chemistry/state-of-matter.html">State of Matter</a>
-  <a href="/chemistry/changes-of-state-of-matter.html">Changes of State of Matter</a>
-  <a href="/chemistry/physical-and-chemical-properties-of-matter.html">Physical and Chemical Properties of Matter</a>
-  <a href="/chemistry/physical-and-chemical-changes-of-matter.html">Physical and Chemical Changes of Matter</a>
-
-  
-</nav>
+  <nav id="nav">
+    <a href="/chemistry/what-is-chemistry.html">What is Chemistry?</a>
+    <a href="/chemistry/particles-of-matter.html">The Tiny Particles That Make Up All Substances</a>
+    <a href="/chemistry/state-of-matter.html">State of Matter</a>
+    <a href="/chemistry/changes-of-state-of-matter.html">Changes of State of Matter</a>
+    <a href="/chemistry/physical-and-chemical-properties-of-matter.html">Physical and Chemical Properties of Matter</a>
+    <a href="/chemistry/physical-and-chemical-changes-of-matter.html">Physical and Chemical Changes of Matter</a>
+    <a href="/chemistry/pure-substances.html">Pure Substances</a>
+  </nav>
 </div>

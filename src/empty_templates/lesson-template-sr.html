@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-lang: "en"
+lang: "sr"
 title: Naslov
 metaDescription: "Meta_opis"
 permalink: /sr/hemija/filename.html
@@ -10,7 +10,16 @@ permalink: /sr/hemija/filename.html
     <h1>Naslov_lekcije</h1>
     <h2>Podnaslov_lekcije</h2>
     <section class="dialogue" aria-label="Dialogue between Mark and Sara about chemistry">
-        <h2 class="section-title"></h2>
+        <h2 class="section-title">Ćaskamo o nauci</h2>
+        <div class="dialogue-turn show-after-1" data-speaker="Sara">
+            <img src="/images/avatars/sara/sara2.svg" width="100" height="106" alt="Sarin avatar" class="avatar" />
+            <p class="bubble question">Sara_kaze</p>
+        </div>
+        <div class="dialogue-turn show-after-2" data-speaker="Mark">
+            <img src="/images/avatars/mark/mark.svg" width="100" height="106" alt="Markov avatar" class="avatar" />
+            <p class="bubble answer">Marko_kaze</p>
+
+        </div>
         <div class="dialogue-turn show-after-1" data-speaker="Sara">
             <img src="/images/avatars/sara/sara2.svg" width="100" height="106" alt="Sarin avatar" class="avatar" />
             <p class="bubble question">Sara_kaze</p>
@@ -21,25 +30,26 @@ permalink: /sr/hemija/filename.html
 
         </div>
         <div class="dialogue-mix show-after-3" data-speaker="Mark and Sara">
-            <p><strong>Mark: </strong>Marko_kaze</p>
+            <p><strong>Marko: </strong>Marko_kaze</p>
             <p><strong>Sara: </strong>Sara_kaze</p>
-            <p><strong>Mark: </strong>Marko_kaze</p>
+            <p><strong>Marko: </strong>Marko_kaze</p>
             <p><strong>Sara: </strong>Sara_kaze</p>
-            <p><strong>Mark: </strong>Marko_kaze</p>
+            <p><strong>Marko: </strong>Marko_kaze</p>
             <p><strong>Sara: </strong>Sara_kaze</p>
-            <p><strong>Mark: </strong>Marko_kaze</p>
+            <p><strong>Marko: </strong>Marko_kaze</p>
             <p><strong>Sara: </strong>Sara_kaze 😏</p>
-            <p><strong>Mark: </strong>Marko_kaze</p>
+            <p><strong>Marko: </strong>Marko_kaze</p>
             <p><strong>Sara: </strong>Sara_kaze 😍</p>
-            <p><strong>Mark: </strong>Marko_kaze</p>
+            <p><strong>Marko: </strong>Marko_kaze</p>
         </div>
 
     </section>
     <section class="resume">
         <h2 class="section-title">Ključni naučni pojmovi</h2>
         <div class="dialogue-turn show-after-3" data-speaker="Teacher">
-            <img src="/images/avatars/teacher/teacher.svg" width="100" height="106" alt="Nastavnikov avatar" class="avatar" />
-            <p class="bubble info"></p>
+            <img src="/images/avatars/teacher/teacher.svg" width="100" height="106" alt="Nastavnikov avatar"
+                class="avatar" />
+            <p class="bubble info">Rezime</p>
         </div>
 
         <div class="svg-wrapper">
@@ -53,12 +63,18 @@ permalink: /sr/hemija/filename.html
                 <dd>Definicija</dd>
 
             </dl>
+            <dl class="glossary">
+                <dt>Naslov_pojma</dt>
+                <dd>Definicija</dd>
+
+            </dl>
         </div>
     </section>
     <section id="fun-fact-section">
         <h2 class="section-title">Naučne zanimljivosti</h2>
         <div class="dialogue-turn show-after-3" data-speaker="Teacher">
-            <img src="/images/avatars/sara/sara2.svg" width="100" height="106" alt="Nastavnikov avatar" class="avatar" />
+            <img src="/images/avatars/sara/sara2.svg" width="100" height="106" alt="Nastavnikov avatar"
+                class="avatar" />
             <p class="bubble info">Science_fact_short</p>
         </div>
         <h3>Science_fact_details_title</h3>
@@ -85,10 +101,15 @@ permalink: /sr/hemija/filename.html
         </div>
     </section>
     <script>
-       const successMessage = "Bravo! Mislim da možeš da pređeš na sledeću temu.";
+        const successMessage = "Bravo! Mislim da možeš da pređeš na sledeću temu.";
         const failureMessage = "Izgleda da ti treba još malo vremena da ovo naučiš.";
         const questions = [
             {
+                text: "?",
+                answers: ["answer", "answer", "answer", "answer"],
+                correct: 0,
+            },
+             {
                 text: "?",
                 answers: ["answer", "answer", "answer", "answer"],
                 correct: 0,
