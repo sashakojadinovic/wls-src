@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="360000"
+   height="360000"
+   viewBox="0 0 360000 360000"
+   version="1.1"
+   id="svg90"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs94" />
+  <desc
+     id="desc2"><![CDATA[
+    Template for Drawing on a numbered 600 by 600 Grid
+    
+    Jay Nick
+    steamcoded.org
+  ]]></desc>
+  <style
+     type="text/css"
+     id="style4"><![CDATA[
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    .numbers {fill:#00c;font-size:14px;font-family:'Open Sans', Arial, sans-serif;}
+    .sb {fill:none;stroke:black;stroke-width:2px;}
+    .title {fill:navy;stroke:none;font-size:50px;text-anchor:middle;font-family:'Open Sans', Arial, sans-serif;}
+    .c1 {fill:rgb(107,53,11);stroke:none;}  .c2 {fill:rgb(225,157,86);stroke:none;} .s1 {fill:none;stroke:rgb(107,53,11);}
+  ]]></style>
+  <circle
+     cx="294.41678"
+     cy="321.38934"
+     r="256.57382"
+     style="fill:#ff0000;stroke-width:1.28287"
+     id="circle44" />
+  <circle
+     cx="294.41678"
+     cy="321.38934"
+     r="230.91644"
+     style="fill:#ffa500;stroke-width:1.28287"
+     id="circle46" />
+  <circle
+     cx="294.41678"
+     cy="321.38934"
+     r="205.25905"
+     style="fill:#ffff00;stroke-width:1.28287"
+     id="circle48" />
+  <circle
+     cx="294.41678"
+     cy="321.38934"
+     r="179.60167"
+     style="fill:#7fff00;stroke-width:1.28287"
+     id="circle50" />
+  <circle
+     cx="294.41678"
+     cy="321.38934"
+     r="153.94429"
+     style="fill:#4abcff;fill-opacity:1;stroke-width:1.28287"
+     id="circle52" />
+  <circle
+     cx="294.41678"
+     cy="321.38934"
+     r="128.28691"
+     style="fill:#4a89ff;fill-opacity:1;stroke-width:1.28287"
+     id="circle54" />
+  <circle
+     cx="294.41678"
+     cy="321.38934"
+     r="102.62952"
+     style="fill:#744aff;fill-opacity:1;stroke-width:1.28287"
+     id="circle56" />
+  <circle
+     cx="294.41678"
+     cy="321.38934"
+     r="76.972145"
+     style="fill:#add8e6;stroke-width:1.28287"
+     id="circle58" />
+  <rect
+     x="12.185577"
+     y="321.38934"
+     width="577.29108"
+     height="267.50015"
+     style="fill:#add8e6;stroke-width:0.92624"
+     id="rect60" />
+  <circle
+     cx="37.842972"
+     cy="340.63242"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle62" />
+  <circle
+     cx="101.98642"
+     cy="340.63242"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle64" />
+  <circle
+     cx="166.12987"
+     cy="340.63242"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle66" />
+  <circle
+     cx="219.87811"
+     cy="345.5849"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle68" />
+  <circle
+     cx="73.30571"
+     cy="383.57178"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle70" />
+  <circle
+     cx="127.64378"
+     cy="385.53284"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle72" />
+  <circle
+     cx="182.49513"
+     cy="383.01254"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle74" />
+  <circle
+     cx="550.9906"
+     cy="340.63242"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle76" />
+  <circle
+     cx="486.84714"
+     cy="340.63242"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle78" />
+  <circle
+     cx="422.7037"
+     cy="340.63242"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle80" />
+  <circle
+     cx="366.38541"
+     cy="347.29697"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle82" />
+  <circle
+     cx="512.65137"
+     cy="377.29016"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle84" />
+  <circle
+     cx="461.18976"
+     cy="385.53284"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle86" />
+  <circle
+     cx="412.32889"
+     cy="376.47815"
+     r="38.486073"
+     style="fill:#ffffff;stroke-width:1.28287"
+     id="circle88" />
+</svg>
