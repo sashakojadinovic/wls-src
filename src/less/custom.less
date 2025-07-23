@@ -138,7 +138,8 @@
             margin: 0 0 0 1rem;
         }
 
-        .question, .answer {
+        .question,
+        .answer {
             order: 0;
 
             &::before {
@@ -249,9 +250,39 @@
 
 .footer {
     border-bottom: 10px solid @color_background_secondary;
+    background-color: @color_background_primary;
+
+    .footer-column {
+        width: 100%;
+        color: @color_foreground_light;       
+        padding: .33rem 1rem;
+
+        &:last-child {
+            border-right: none;
+        }
+
+        @media (min-width: 768px) {
+           width: 33%;
+            border-right: 1px solid @color_foreground_mid;
+        }
+
+        .footer-col-title {
+            margin-top: .1rem;
+        }
+
+        li {
+            list-style: none;
+
+            a {
+                color: @color_foreground_light;
+                text-decoration: none;
+            }
+        }
+    }
 
     p {
         text-align: center;
+        color: @color_foreground_light;
     }
 }
 
