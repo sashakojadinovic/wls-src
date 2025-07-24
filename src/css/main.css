@@ -185,6 +185,12 @@ nav.active {
 .inline-link:hover {
   background-color: transparent;
 }
+.rounded {
+  border-radius: 10px;
+}
+.img-txt-wrapper {
+  display: flex;
+}
 .btn {
   display: inline-block;
   padding: 0.75rem;
