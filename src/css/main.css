@@ -178,6 +178,9 @@ nav.active {
     justify-content: center;
   }
 }
+.slimple-link-light {
+  color: #ffffff;
+}
 .inline-link {
   background-color: #d6ebfb;
   color: #0a3d62;
