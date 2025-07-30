@@ -19,5 +19,10 @@
             <h3 class="footer-col-title">WLS</h3>
         </div>
     </div>
+     {% if attribution %}
+        <div class="page-attribution">
+            {{ attribution | safe }}
+        </div>
+    {% endif %}
     <p>&copy; 2025 WLS - WeLearnScience</p>
 </footer>

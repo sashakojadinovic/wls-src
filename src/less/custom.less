@@ -79,13 +79,30 @@
     }
 }
 
+.homepage-banner {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: auto;
+
+        @media (min-width: 768px) {
+            width: 80%;
+        }
+    }
+}
+
 .container {
     max-width: 1200px;
     margin: 2rem auto 0;
     padding: 1rem .5rem;
 
+
     @media (min-width: 768px) {
         margin: 4rem auto 0;
+
     }
 }
 
@@ -217,7 +234,7 @@
 .dialogue-mix,
 .resume-description {
     background-color: @color_background_light;
-    border-radius: 10px; 
+    border-radius: 10px;
     margin-top: 1rem;
     padding: 15px;
     opacity: 0;
@@ -253,7 +270,7 @@
 
     .footer-column {
         width: 100%;
-        color: @color_foreground_light;       
+        color: @color_foreground_light;
         padding: .33rem 1rem;
 
         &:last-child {
@@ -261,7 +278,7 @@
         }
 
         @media (min-width: 768px) {
-           width: 33%;
+            width: 33%;
             border-right: 1px solid @color_foreground_mid;
         }
 
@@ -282,6 +299,17 @@
     p {
         text-align: center;
         color: @color_foreground_light;
+    }
+
+    .page-attribution {
+        font-size: 0.75rem;
+        text-align: center;
+        margin-top: 1rem;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
     }
 }
 
